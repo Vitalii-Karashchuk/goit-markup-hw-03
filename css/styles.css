@@ -1,3 +1,13 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -19,6 +29,15 @@ body {
 .header {
   background-color: var(--background-color);
 }
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+  outline: 2px solid tomato;
+}
 .header-link {
   text-decoration: none;
 }
@@ -39,6 +58,9 @@ body {
 }
 .menu {
   list-style: none;
+  padding-left: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 .menu-link {
   font-weight: 500;
@@ -77,16 +99,20 @@ body {
 /*============section-hero-start=====*/
 .hero {
   background: var(--background-hero);
+  text-align: center;
 }
 .hero-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
-  /* or 136% */
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--background-color);
+  margin-bottom: 0px;
+  margin-top: 0px;
+
+  outline: 2px solid tomato;
 }
 .modal-btn {
   font-weight: 700;
@@ -96,6 +122,8 @@ body {
   background: var(--accent-color);
   border: none;
   cursor: pointer;
+  padding: 0px;
+  margin: 0px;
 }
 /*============section-hero-end=====*/
 /*==========section-features-company-start=====*/
@@ -104,6 +132,9 @@ body {
 }
 .list-features {
   list-style: none;
+  padding-left: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 .visually-hidden {
   position: absolute;
@@ -124,12 +155,16 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-text-color);
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 .description-feature {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 /*==========section-features-company-end=====*/
 /*==========section-our-work-start=====*/
@@ -140,9 +175,14 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+  margin-top: 94px;
+  margin-bottom: 50px;
 }
 .list-work {
   list-style: none;
+  padding-left: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
   /*==========section-our-work-end=====*/
 }
 /*==========section-our-team-start=====*/
@@ -156,9 +196,16 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+  margin-top: 188px;
+  margin-bottom: 50px;
+
+  outline: 2px solid tomato;
 }
 .list-team {
   list-style: none;
+  padding-left: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 .employee-team {
   font-weight: 500;
@@ -166,6 +213,8 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .activity-employee {
   font-weight: 400;
@@ -173,6 +222,8 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--mail-tel-color);
+  margin-top: 0px;
+  margin-bottom: 30px;
 }
 /*==========section-our-team-end=====*/
 /*==========section-footer-start=====*/
@@ -189,6 +240,8 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-color);
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
 .footer-link-logo-end {
   font-family: "Raleway", sans-serif;
@@ -196,9 +249,14 @@ body {
   font-size: 26px;
   line-height: 1.19;
   color: var(--logo-address-footer-color);
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
 .list-address {
   list-style: none;
+  padding-left: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 .list-address-item-link {
   font-style: normal;
@@ -251,6 +309,9 @@ body {
 }
 .list-projeсts {
   list-style: none;
+  padding-left: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 .heading-item-project {
   font-weight: 700;
